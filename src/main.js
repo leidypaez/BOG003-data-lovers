@@ -6,3 +6,6 @@ import data from './data/pokemon/pokemon.js';
 console.log(example, data);
 
 //esto es solo una prueba
+
+
+//prueba one 
