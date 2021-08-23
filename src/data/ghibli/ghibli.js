@@ -1,4 +1,4 @@
-export default {
+export const data = {
   "studio": "Studio Ghibli Inc.",
   "films": [
     {
@@ -666,7 +666,7 @@ export default {
         {
           "id": "dbeeaecb-7817-4b8b-90ca-edc432d3033e",
           "name": "Taeko's House",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cf/Only_Yesterday_artwork_%2813%29.jpg", 
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cf/Only_Yesterday_artwork_%2813%29.jpg",
           "climate": "Continental",
           "terrain": "River",
           "surface_water": "40",
@@ -1315,7 +1315,7 @@ export default {
           "eye_color": "Black",
           "hair_color": "Brown",
           "specie": "Human"
-        }, 
+        },
         {
           "id": "2e7bb7bf-4149-4df5-b6e4-76064021651c",
           "name": "Yūko Ogino",
@@ -1573,7 +1573,7 @@ export default {
           "eye_color": "Brown",
           "hair_color": "Beige-white",
           "specie": "Dog"
-        }, 
+        },
         {
           "id": "3148150f-6ccb-4383-8af5-0c40f03c825e",
           "name": "Lettie Hatter",
@@ -1583,7 +1583,7 @@ export default {
           "eye_color": "Blue",
           "hair_color": "Blonde",
           "specie": "Human"
-        }, 
+        },
         {
           "id": "06610030-0560-47ac-bc18-be80d85c4dad",
           "name": "Fanny Hatter/Honey",

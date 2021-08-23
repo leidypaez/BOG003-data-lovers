@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  max-width: 1351px;
+}
+
+body {
+  background: #F3E9E9;
+}
+
+/* ZONA DEL ENCABEZADO */
+/* .btn-movil {
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding:  0 20px;
+  line-height: 60px;
+  visibility: hidden;
+} */
+.headerone {
+  background: #7482FF;
+  position: fixed;
+  z-index: 10;
+  top: 10;
+  width: 108%;
+}
+
+.firts-img {
+  width: 10px;
+  border-radius: 50%;
+}
+
+.headerone nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.headerone nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerone a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(248, 247, 247);
+  padding: 12px 20px;
+  display: block;
+}
+
+.second-header {
+  background: rgb(85, 85, 187);
+  border-radius: 10px;
+}
+.headerone a:hover{
+  background: rgb(76, 76, 173);
+}
+
+.headerone nav ul li ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #7482FF;
+}
+
+.headerone nav ul li ul li {
+  width: 180px;
+  position: relative;
+}
+
+.headerone nav ul li ul li ul {
+  top: 0;
+  left: 180px;
+  position: absolute;
+}
+
+.headerone nav ul li ul {
+  display: none;
+}
+
+.headerone nav ul li:hover > ul {
+  display: block;
+}
+
+/* ICONO DE BUSCAR */
+.search {
+  position:relative;
+  padding: 10px;
+
+}
+
+.search input {
+  width: 0px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color:#2b2a2a;
+  outline: none;
+  border: 1px solid rgb(37, 3, 77);
+  border-radius: 15px;
+  transition: all 0.6s ease;
+}
+
+.btn {
+  position:absolute;
+  top: 1%;
+  right: 1%;
+  background: #5c52a0;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.search:hover input {
+   width: 240px;
+}
+
+.search imput:focus {
+  width: 250px;
+}
+
+/* @media (max-width:768px) {
+  .headerone {
+    flex-direction: c;
+  }
+  .main-nav {
+    background: #16133f;
+    display: block;
+    justify-content: column;
+  }
+  .btn-movil {
+    overflow: visible;
+    visibility: visible;
+    color: #fff;
+  }
+  .logo {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-link {
+    display: block;
+    padding: 20px;
+  }
+  .menu .submenu {
+   flex-direction: column;
+  }
+} */
+
+/* ZONA DE EL CARRUSEL DE FOTOS */
+.container-slider {
+  margin: section;
+  overflow: hidden;
+  position: relative;
+  padding: 80px 0px;
+}
+.slider {
+  display: flex;
+  width: 300%;
+  height: 300%;
+  margin-left: -100%;
+}
+.slider__section {
+  width: 100%;
+}
+.slider_img{
+  display : block;
+  object-fit: cover;
+}
+.slider__btn{
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  background: rgb(255,255, 255,0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.slider__btn:hover{
+  background: #fff;
+}
+.slider__btn--left{
+  left: 10px;
+
+}
+.slider__btn--right{
+  right: 10px;
+}
+
+/* ZONA DE TEXTO STUDIO GHIBLI */
+.section-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0% 11px;
+  top: 100% 10%;
+}
+
+.first-text {
+  font-size: 20px;
+  color: rgb(78, 80, 78);
+}
+
+.section-text p {
+  font-size: 50px;
+  color: rgb(24, 24, 131);
+  padding: 80px 15px;
+}
+
+.section-text span {
+  font-size: 45px;
+  color: rgb(76, 76, 177);
+}
+
+.section-text h1 {
+  font-size: 20px;
+  padding: 90px;
+}
+
+/* BOTONES Z-A Y A-Z */
+.btn-order {
+  padding-bottom: -30%;
+  padding-left: 35%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
+
+.btn-order-az {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8f6f6;
+  margin: 20px;
+  background: #5666f1;
+  border: 10px;
+  float: left;
+  cursor: pointer;
+  padding: 15px 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: rgb(53, 51, 153) 8px 7px 0;
+}
+
+.btn-order-za {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8f6f6;
+  margin: 20px;
+  background: #5666f1;
+  border: 10px;
+  float: left;
+  cursor: pointer;
+  padding: 15px 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: rgb(53, 51, 153) 8px 7px 0;
+}
+
+.btn-order-az:hover {
+ opacity: 0.8;
+}
+.btn-order-za:hover {
+  opacity: 0.8;
+
+ }
+
+/* TERCERA PANTALLA PRODUCTORES */
+.producers {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f8f6f6;
+  background: #bd42e2;
+  border: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: -20%;
+  margin-left: auto;
+  margin: 10px;
+  padding: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  box-shadow: rgb(71, 28, 107) 10px 8px 0;
+}
+
+/* SEGUNGA PANTALLA BOTONES DE TODAS LAS PELICULAS  */
+.all-movies-css {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+  font-weight: bold;
+  padding:10% 10%;
+  justify-content:space-between;
+  margin: 20px 25px;
+  margin-top: -0;
+}
+
+.all-movies-css img {
+  padding: 20px 10px;
+  margin: 15% 10%;
+  margin-top: 5% 10px;
+  box-shadow: #16133f 10px 8px 0;
+  cursor: pointer;
+  background: #977FD9;
+  border: #977FD9 10px solid;
+  max-width: 1400px;
+  border-radius: 20px;
+  color: #f8f6f6;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-movies-css div:hover {
+  opacity: 0.8;
+}
+
+
+/* ZONA DE FOOTER */
+ .footer {
+  background: #7482FF;
+  padding: 8px 0px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.icons-footer {
+  font-size: 50px;
+  padding: 10px 100px;
+  display: block;
+}
+
+.icons-footer:hover {
+  opacity: 0.8;
+}
+
+.icons-footer a {
+  top: 12%;
+  right: 1%;
+  background: #7482FF;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.copyright {
+  color: white;
+  padding: 10px;
+}
+

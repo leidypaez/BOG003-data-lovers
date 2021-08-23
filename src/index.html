@@ -1,12 +1,201 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximus-scale=1.0, minimus-scale=1.0"
+    />
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- ZONA DEL ENCABEZADO -->
+    <header class="headerone">
+      <!-- <span class="btn-movil"><i class="fas fa-bars"></i></span> -->
+      <nav class="main-nav">
+        <div class="logo" id="logo">
+          <img src="img/logo-ghibli.jpg" alt="logo-ghibli" width="200" />
+        </div>
+        <ul class="menu" id="menu">
+          <li class="menu-item container-submenu">
+            <a href="#" id="menu-movies" class="menu-link submenu-btn"
+              >Movies <i class="fas fa-angle-down"></i
+            ></a>
+            <ul class="second-header">
+              <li class="submenu">
+                <a href="#" class="submenu-btn menu-link"
+                  >release dates <i class="fas fa-angle-down"></i
+                ></a>
+                <ul id="btn-dates" class="second-header">
+                  <li class="menu-item" id="first-filter">
+                    <a href="#" class="menu-link">1985 To 1999</a>
+                  </li>
+                  <li class="menu-item" id="second-filter">
+                    <a href="#" class="menu-link">2000 To 2010</a>
+                  </li>
+                  <li class="menu-item" id="three-filter">
+                    <a href="#" class="menu-link">2011 Until now</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item" id="score-one">
+            <a href="#" class="menu-link">Animations</a>
+          </li>
+          <li class="menu-item" id="producers">
+            <a href="#" class="menu-link">Producers</a>
+          </li>
+
+          <div class="search">
+            <input type="search" placeholder="Buscar" />
+            <div class="btn">
+              <i class="fas fa-search icon"></i>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ZONA DE EL CUERPO DE LA PAGINA-primera pantalla fotos y resumen studio ghibli -->
+    <main>
+      <!-- imagenes de la primera pantalla -->
+      <section class="container-slider" id="all-fist-images">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img
+              src="img/EL CASTILLO AMBULANTE.png"
+              alt="portada1"
+              width="1355"
+            />
+          </div>
+
+          <div class="slider__section">
+            <img
+              src="img/EL VIAJE DE CHIJIRO.png"
+              alt="portada2"
+              width="1355"
+            />
+          </div>
+
+          <div class="slider__section">
+            <img src="img/MI VECINO TOTORO.png" alt="portada3" width="1355" />
+          </div>
+        </div>
+
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </section>
+      <section class="section-text" id="all-fist-text">
+        <p>
+          <b>Studios <span>Ghibli</span></b>
+        </p>
+        <h1 class="first-text">
+          Studio Ghibli was founded in 1985 by animated film directors Isao
+          Takahata and Hayao Miyazaki, and has produced twenty-two feature
+          films. Most of the Studio Ghibli films ranked # 1 at the Japanese box
+          office in the year they were released. SPIRITED AWAY, Directed by
+          Hayao Miyazaki and released in 2001, it is the highest grossing film
+          of all time in Japan, with more than 30 billion yen at the box office.
+          Studio Ghibli films have garnered numerous awards and critical acclaim
+          from film critics and animation specialists around the world. SPIRITED
+          AWAY received the Golden Bear for Best Film at the 2002 Berlin
+          International Film Festival and won the 2002 Academy Award for Best
+          Animated Film. In October 2001, Studio Ghibli, together with the
+          Tokuma Memorial Cultural Foundation for Animation, founded the Ghibli
+          Museum, Mitaka, designed by Hayao Miyazaki. THE WIND RISES (2013), THE
+          TALE OF THE PRINCESS KAGUYA (2013), WHEN MARNIE WAS THERE (2014) and
+          THE RED TURTLE (2016), the last four films released by Studio Ghibli,
+          they have earned the studio four consecutive Oscar nominations. for
+          Best Animated Feature Film. Currently, the studio is working on a new
+          production.
+        </h1>
+      </section>
+    </main>
+    <main>
+      <!-- segunda pantalla seccion todas las peliculas -->
+      <div class="all-movies-css" id="movies"></div>
+      <div class="btn-order">
+        <button id="btn-az" class="btn-order-az" hidden>ORDER A-Z</button>
+        <button id="btn-za" class="btn-order-za" hidden>ORDER Z-A</button>
+      </div>
+      <section id="all-movies" hidden>
+        <div id="titles"></div>
+        <div id="dates"></div>
+      </section>
+
+      <section class="all-producers-css" id="all-producers">
+        <div id="section-producers"></div>
+        <div id="hayao" class="producers">
+          <img src="img/HAYAO-MIYAZAKI.jpg" alt="productor-hayao-miyazaki" width="220" height="400"/>
+          <h1>Hayao Miyazaki</h1>
+        </div>
+        <div id="isao" class="producers">
+          <img src="img/ISAO-TAKAHATA.jpg" alt="productor-Isao Takahata" width="220" height="400"/>
+          <h1>Isao Takahata</h1>
+        </div>
+        <div id="yoshio" class="producers">
+          <img src="img/YOSHIO-NISHIMURA.jpg" alt="productor-yoshio-nishimura"  width="220" height="400"/>
+          <h1>Yoshio Nishimura</h1>
+        </div>
+        <div id="toru" class="producers">
+          <img src="img/TORU-HARA.jpg" alt="productor-toru-hara" width="220" height="400"/>
+          <h1>Toru Hara</h1>
+        </div>
+        <div id="toshio" class="producers">
+          <img src="img/TOSHIO-SUZUKI.jpg" alt="productor-toshio-suzuki" width="220" height="400">
+          <h1>Toshio Suzuki</h1>
+        </div>
+      </section>
+
+      <!--pantalla de animaciones y estadisca-->
+
+      <section class="all-score-css" id="all-score">
+        <div id="score-titles"></div>
+        <canvas id="graph"></canvas>
+      </section>
+    </main>
+
+    <!---ZONA DEL PIE DE PAGINA -->
+    <footer class="footer">
+      <section>
+        <div class="icons-footer">
+          <a href="https://es-la.facebook.com/FansOfStudioGhibli/"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.instagram.com/ghibli.movies/?hl=es"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/sghibliweblog?lang=es"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          <hr />
+          <p>
+            todos los derechos reservados © 2021
+            <b>studio ghibli</b>
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- <div id="root"></div> -->
     <script src="main.js" type="module"></script>
   </body>
 </html>
+
