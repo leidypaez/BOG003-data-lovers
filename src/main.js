@@ -192,30 +192,13 @@ function showData(moviesToShow) {
 }}
 
 
-
-//********************LLAMAR A LAS PELICULAS POR RANKING CON SUS TITULOS**********************//
-
-function showScore(scoreToTitle) {
-  for(let i =0; i< scoreToTitle.length; i++) {
-    const showScoreOne = document.createElement("section");
-    const showScoreAll = document.createElement("div");
-    const showScoreTitle = document.createElement("div");
-    let showScoreTitleAll = scoreToTitle[i]["title"];
-    showScoreOne.textContent= scoreToTitle[i]["rt_score"];
-    showScoreOne.className = "all-score-css";
-    showScoreTitle.textContent = showScoreTitleAll;
-    showScoreAll.appendChild(showScoreTitle);
-    showScoreAll.appendChild(showScoreOne);
-    document.getElementById("all-score").appendChild(showScoreAll);
-  }}
-
   //********************LLAMAR A LOS PRODUCTORES Y NUEVOS POSTERS**********************//
 function showProducers(ShowToProducers) {
    for (let i = 0; i < ShowToProducers.length; i++) {
      const showPosterOne = document.createElement("img");
      const showPosterProducers = document.createElement("div");
      const showProducers = ShowToProducers[i]["producer"];
-     console.log(ShowToProducers[i]["producer"])
+    // console.log(ShowToProducers[i]["producer"])
      showPosterOne.src = ShowToProducers[i]["poster"];
      showPosterOne.id = "section-producers";
      showPosterProducers.innerHTML += showProducers;
@@ -225,3 +208,29 @@ function showProducers(ShowToProducers) {
 
 showProducers(allMovie)
 //dataProducesFilter(allMovie,"hayao miyasaki")
+
+//********************LLAMAR A LAS PELICULAS POR RANKING CON SUS TITULOS**********************//
+
+function showScore(scoreToTitle) {
+    for(let i =0; i< scoreToTitle.length; i++) {
+      const descriptionRanking = document.createElement("section")
+      const showScorePoster = document.createElement("img");
+      const showScoreOne = document.createElement("section");
+      const showScoreAll = document.createElement("div");
+      const showScoreTitle = document.createElement("div");
+      let showScoreTitleAll = scoreToTitle[i]["title"];
+      showScoreOne.textContent= scoreToTitle[i]["rt_score"];
+      showScorePoster.src = scoreToTitle[i]["poster"];
+      descriptionRanking.textContent = scoreToTitle[i]["description"]
+      showScoreOne.className = "all-score-css";
+      showScoreTitle.textContent = showScoreTitleAll;
+      descriptionRanking.className = "description";
+      showScorePoster.className= "poster";
+      showScoreTitle.className="title-css";
+      showScoreAll.appendChild(showScoreTitle);
+      showScoreAll.appendChild(showScoreOne);
+      showScoreAll.appendChild(showScorePoster);
+      showScoreAll.appendChild(descriptionRanking);
+      document.getElementById("all-score").appendChild(showScoreAll);
+    }};
+ 

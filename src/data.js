@@ -30,8 +30,8 @@ export function movieSortZA(orderZA) {
 export const dataProducesFilter = (arrayMovies,producer) => {
   const result = arrayMovies.map(movie => {
   if (movie.producer == producer) {
-    console.log(movie)
-    console.log(movie.producer)
+   // console.log(movie)
+    //console.log(movie.producer)
     return movie.name
   }
 
