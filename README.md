@@ -1,4 +1,4 @@
-![logo-studio-ghibli] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/logo-ghibli.jpg
+![logo-studio-ghibli](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/logo-ghibli.jpg)
 ## Índice
 
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
@@ -28,13 +28,13 @@ Pensamos en una pagina que sea facil de usar y con la cual tuvimos apoyo de algu
 Inicialmente se crearon los prototipos no realistas donde se opto por una mejor usabilidad donde el usuario pueda buscar con facilitadad lo que necesita saber de la pagina studio ghibli y para amantes del anime, sencilla de usar para niños ya que es funcionable.
 
 #### prototipos no realistas
-![Prototipos-no-realistas] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20PANTALLA%201%20Y%202.png
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20PANTALLA%203%20Y%204.png
+![Prototipos-no-realistas](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20PANTALLA%201%20Y%202.png)
+![prototipos-no-realista-uno](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20PANTALLA%203%20Y%204.png)
 
 Se crearon los prototipos realistas con cambios en los botones de los prototipos no realistas para cumplir con todos los objetivos de aprendizaje y que sea mas sencilla de usar.
-![Prototipos-Realistas] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%201.png
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%202.png
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%203.png 
+![Prototipos-Realistas](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%201.png)
+![Prototipos-Realistas-uno](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%202.png)
+![Prototipos-Realistas-dos](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PROTOTIPOS%20REALISTAS%203.png)
 
 para ver mejor los prototipos realistas se pueden ver en este link ![Prototipos-realistas] https://www.figma.com/file/prhWOtHTYEwZ3D2RFFW3Tc/navegador-ghibli?node-id=12%3A4
 
@@ -42,8 +42,8 @@ para ver mejor los prototipos realistas se pueden ver en este link ![Prototipos-
 ### 4.1 Primera historia de usuario (pantalla principal)
 
 yo como usuario quisiera ver una pagina con una pequeña introduccion de studio ghibli con una pequeña galeria tipo interactivo donde se desplazan  las imagenes de las peliculas mas reconocidas que ha hecho hayao miyazaki, que cuente con un encabezado de varias opciones para saber mas detalles de cada pelicula y con un pie de pagina sencillo donde muestre la zona de las redes sociales y derechos reservados para tener una introduccion antes de la informacion de cada peliculas.
-![Prototipo-de-la-primera-pantalla] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%201.png 
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%201.2.png
+![Prototipo-de-la-primera-pantalla](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%201.png)
+![Primera-pantalla](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%201.2.png)
 
 ### 4.2 Segunda historia de usuario (pantalla de peliculas)
 
@@ -64,15 +64,15 @@ como usuario me gustaria poder ordenarlas de la (A) a la (Z) y de la (Z) a la (A
 como usuario me gustaria ver todas las peliculas por orden de puntaje de la mas baja hasta la de mayor puntaje con su descripcion su poster y titulo.
 ![Imagenes-de-la-seccion-de-animacion](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.png)
 
-(https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.2.png)
+![Imagenes-de-la-seccion-de-animacion-uno](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.2.png)
 
 ### 4.5 Quinta historia de usuario (pantalla de productores)
 
 yo como usuario quiero ver los productores y ver que peliculas realizo cada uno, realizando en el encabezado los 5 botones de cada uno de los productores de cada pelicula para filtrarlos por sus respectivas peliculas.
-![Imagenes-de-los-productores] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.png )
-(https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.2.png)
+![Imagenes-de-los-productores](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.png)
+![Imagenes-de-los-productores-dos](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.2.png)
 
-![imagenes-del-encabezado-productor] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20PRODUCTORES.png)
+![imagenes-del-encabezado-productor](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20PRODUCTORES.png)
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -110,7 +110,7 @@ Con varios usuarios nos hicieron feedback de que la pagina esta completa facil d
 ## 6. Pruebas Unitarias
 
 Se paso el test con un total de 100 en todo
-![Imagen-del-test] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/TEST.png)
+![Imagen-del-test](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/TEST.png)
 
 
 ## 7. Autoria
