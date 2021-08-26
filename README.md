@@ -48,30 +48,31 @@ https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTA
 ### 4.2 Segunda historia de usuario (pantalla de peliculas)
 
 como usuario y amante del anime quiero ver las fechas de las peliculas, para ver cuales son las mas antiguas y las mas recientes, agregando en el encabezado el menu desplegable con 3 botones para filtrar las peliculas por fechas de 1985 a 1999 - de 2000 a 2010 y de 2011  hasta ahora.
-![Prototipos-de-la-pantalla-de-peliculas]  https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%202%20MOVIES.png
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%202.2%20MOVIES.png
-![Prototipo-filtro-de-pelicula] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20FECHAS.png
+![Prototipos-de-la-pantalla-de-peliculas](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%202%20MOVIES.png) 
+![Segunda-imagen](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/IMAGEN%20PANTALLA%202.2%20MOVIES.png)
+![Prototipo-filtro-de-pelicula](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20FECHAS.png)
 
 
 
 ### 4.3 Tercera historia de usuario (organizacion pantalla de peliculas)
 
 como usuario me gustaria poder ordenarlas de la (A) a la (Z) y de la (Z) a la (A), agregando dos botones en la seccion de abajo de peliculas donde el usuario puede cambiar el orden que el mejor prefiera
-![Imagenes-de-los-botones-AZ] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/BOTONES%20DE%20LA%20(A)%20a%20la%20(Z).png
+![Imagenes-de-los-botones-AZ](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/BOTONES%20DE%20LA%20(A)%20a%20la%20(Z).png)
 
 ### 4.4 Cuarta historia de usuario  (pantalla de animaciones)
 
 como usuario me gustaria ver todas las peliculas por orden de puntaje de la mas baja hasta la de mayor puntaje con su descripcion su poster y titulo.
-![Imagenes-de-la-seccion-de-animacion] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.png
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.2.png
+![Imagenes-de-la-seccion-de-animacion](https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.png)
+
+(https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20ANIMACIONES%203.2.png)
 
 ### 4.5 Quinta historia de usuario (pantalla de productores)
 
 yo como usuario quiero ver los productores y ver que peliculas realizo cada uno, realizando en el encabezado los 5 botones de cada uno de los productores de cada pelicula para filtrarlos por sus respectivas peliculas.
-![Imagenes-de-los-productores] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.png 
-https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.2.png
+![Imagenes-de-los-productores] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.png )
+(https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/PANTALLA%20PRODUCTORES%204.2.png)
 
-![imagenes-del-encabezado-productor] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20PRODUCTORES.png
+![imagenes-del-encabezado-productor] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/HEADER%20FILTRO%20POR%20PRODUCTORES.png)
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -109,7 +110,7 @@ Con varios usuarios nos hicieron feedback de que la pagina esta completa facil d
 ## 6. Pruebas Unitarias
 
 Se paso el test con un total de 100 en todo
-![Imagen-del-test] https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/TEST.png
+![Imagen-del-test] (https://github.com/leidypaez/BOG003-data-lovers/blob/main/src/img/TEST.png)
 
 
 ## 7. Autoria
