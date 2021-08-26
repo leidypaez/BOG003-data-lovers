@@ -12,16 +12,6 @@ body {
 }
 
 /* ZONA DEL ENCABEZADO */
-/* .btn-movil {
-  cursor: pointer;
-  color: white;
-  background: none;
-  border: none;
-  font-size: 30px;
-  padding:  0 20px;
-  line-height: 60px;
-  visibility: hidden;
-} */
 .headerone {
   background: #7482FF;
   position: fixed;
@@ -30,9 +20,10 @@ body {
   width: 108%;
 }
 
-.firts-img {
+.logo {
   width: 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .headerone nav {
@@ -57,9 +48,9 @@ body {
 }
 
 .second-header {
-  background: rgb(85, 85, 187);
   border-radius: 10px;
 }
+
 .headerone a:hover{
   background: rgb(76, 76, 173);
 }
@@ -132,33 +123,6 @@ body {
   width: 250px;
 }
 
-/* @media (max-width:768px) {
-  .headerone {
-    flex-direction: c;
-  }
-  .main-nav {
-    background: #16133f;
-    display: block;
-    justify-content: column;
-  }
-  .btn-movil {
-    overflow: visible;
-    visibility: visible;
-    color: #fff;
-  }
-  .logo {
-    visibility: hidden;
-    display: none;
-  }
-  .menu-link {
-    display: block;
-    padding: 20px;
-  }
-  .menu .submenu {
-   flex-direction: column;
-  }
-} */
-
 /* ZONA DE EL CARRUSEL DE FOTOS */
 .container-slider {
   margin: section;
@@ -166,19 +130,23 @@ body {
   position: relative;
   padding: 80px 0px;
 }
+
 .slider {
   display: flex;
   width: 300%;
   height: 300%;
   margin-left: -100%;
 }
+
 .slider__section {
   width: 100%;
 }
+
 .slider_img{
   display : block;
   object-fit: cover;
 }
+
 .slider__btn{
   position:absolute;
   width: 40px;
@@ -192,15 +160,16 @@ body {
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
-
 }
+
 .slider__btn:hover{
   background: #fff;
 }
+
 .slider__btn--left{
   left: 10px;
-
 }
+
 .slider__btn--right{
   right: 10px;
 }
@@ -235,11 +204,46 @@ body {
   padding: 90px;
 }
 
+/* SEGUNGA PANTALLA BOTONES DE TODAS LAS PELICULAS */
+.all-movies-css {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+  font-weight: bold;
+  padding:6% 6%;
+  justify-content:space-between;
+  margin: 15px 20px;
+  margin-top: -0;
+}
+
+.all-movies-css img {
+  padding: 20px 10px;
+  margin: 15% 10%;
+  margin-top: 5% 10px;
+  box-shadow: #16133f 10px 8px 0;
+  cursor: pointer;
+  background: #977FD9;
+  border: #977FD9 10px solid;
+  max-width: 1400px;
+  border-radius: 20px;
+  color: #f8f6f6;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-movies-css div:hover {
+  opacity: 0.8;
+}
+
 /* BOTONES Z-A Y A-Z */
 .btn-order {
   padding-bottom: -30%;
   padding-left: 35%;
-  margin-top: -10%;
+  margin-top: -6%;
   margin-bottom: 10%;
 }
 
@@ -278,68 +282,125 @@ body {
 .btn-order-az:hover {
  opacity: 0.8;
 }
+
 .btn-order-za:hover {
   opacity: 0.8;
-
  }
 
-/* TERCERA PANTALLA PRODUCTORES */
+ /* CUARTA PANTALLA DATA DE PELICULAS */
+ .all-score-css {
+   margin: 3%;
+   margin-left: 15%;
+   padding-left: 10px;
+ }
+ .description{
+  display: inline-block;
+  position: absolute;
+  padding-left: 1%;
+  padding-right: 20%;
+  padding-top: 5px;
+  margin: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+ }
+.title-css{
+  font-size: 30px;
+  font-weight: bold;
+  background: #87a1eb;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 3%;
+  color: #4e4d4d;
+  box-shadow: rgb(172, 171, 171) 10px 8px 0;
+}
+
+ section .all-score-css{
+ text-align: center;
+ font-size: 20px;
+ font-weight: bold;
+ color: #575656;
+}
+
+.poster {
+  align-items: center;
+  margin: 10%;
+  margin-right: 10%;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  padding-left: 2%;
+  background: #f0dfbf;
+  border-radius: 30px;
+  box-shadow: 7px 13px 37px #615e60;
+}
+
+/* QUINTA PANTALLA PRODUCTORES */
+.poster-css {
+ display: inline-block;
+  background: rgb(71, 112, 165);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 8%;
+  font-size: 20px;
+  color: rgb(241, 237, 237);
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 7px 13px 37px #615e60;
+}
+
 .producers {
   display: inline-block;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   color: #f8f6f6;
-  background: #bd42e2;
-  border: 10px;
+  background: #774e8f;
   align-items: center;
   cursor: pointer;
-  margin-bottom: -20%;
-  margin-left: auto;
-  margin: 10px;
+  margin: 15px;
   padding: 15px;
-  padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
-  box-shadow: rgb(71, 28, 107) 10px 8px 0;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: -30%;
+  border-radius: 10px;
+  box-shadow: rgb(72, 28, 107) 10px 8px 0;
 }
 
-/* SEGUNGA PANTALLA BOTONES DE TODAS LAS PELICULAS  */
-.all-movies-css {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;
-  color: rgb(12, 12, 12);
-  font-size: 20px;
-  font-weight: bold;
-  padding:10% 10%;
-  justify-content:space-between;
-  margin: 20px 25px;
-  margin-top: -0;
-}
-
-.all-movies-css img {
-  padding: 20px 10px;
-  margin: 15% 10%;
-  margin-top: 5% 10px;
-  box-shadow: #16133f 10px 8px 0;
+.poster-css:hover {
+  background: #774e8f;
   cursor: pointer;
-  background: #977FD9;
-  border: #977FD9 10px solid;
-  max-width: 1400px;
-  border-radius: 20px;
-  color: #f8f6f6;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.all-movies-css div:hover {
-  opacity: 0.8;
+#img-hayao {
+  margin: 2% 5%;
+  margin-left: 8%;
 }
 
+#img-isao {
+  margin: 5% 5%;
+}
+
+#img-yoshio {
+  margin: 4% 5%;
+}
+
+#img-toru {
+  margin: 0% 15%;
+  margin-left: 20%;
+}
+
+#img-toshio {
+  margin: 1% 1%;
+  margin-left: 6%;
+  margin-right: 8%;
+}
 
 /* ZONA DE FOOTER */
  .footer {
