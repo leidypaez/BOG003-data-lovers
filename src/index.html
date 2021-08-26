@@ -2,45 +2,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximus-scale=1.0, minimus-scale=1.0"
-    />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximus-scale=1.0, minimus-scale=1.0"/>
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
   </head>
   <body>
-    <!-- ZONA DEL ENCABEZADO -->
+    <!-- ZONA DEL ENCABEZADO DONDE SE MUESTRA EL MENU DESPLEGABLE -->
     <header class="headerone">
-      <!-- <span class="btn-movil"><i class="fas fa-bars"></i></span> -->
       <nav class="main-nav">
+
         <div class="logo" id="logo">
           <img src="img/logo-ghibli.jpg" alt="logo-ghibli" width="200" />
         </div>
+
         <ul class="menu" id="menu">
-          <li class="menu-item container-submenu">
-            <a href="#" id="menu-movies" class="menu-link submenu-btn"
-              >Movies <i class="fas fa-angle-down"></i
-            ></a>
             <ul class="second-header">
-              <li class="submenu">
-                <a href="#" class="submenu-btn menu-link"
-                  >release dates <i class="fas fa-angle-down"></i
-                ></a>
+              <li class="menu-item container-submenu">
+                <a href="#" id="menu-movies" class="menu-link submenu-btn">Movies  <i class="fas fa-angle-down"></i></a>
                 <ul id="btn-dates" class="second-header">
                   <li class="menu-item" id="first-filter">
                     <a href="#" class="menu-link">1985 To 1999</a>
@@ -54,13 +37,30 @@
                 </ul>
               </li>
             </ul>
-          </li>
-          <li class="menu-item" id="score-one">
-            <a href="#" class="menu-link">Animations</a>
-          </li>
-          <li class="menu-item" id="producers">
-            <a href="#" class="menu-link">Producers</a>
-          </li>
+            <ul class="second-header">
+              <li class="menu-item" id="score"><a href="#" class="menu-link">Animations</a></li>
+            </ul>
+            <ul class="second-header">
+              <li class="menu-item" id="producers"><a href="#" class="menu-link">Producers  <i class="fas fa-angle-down"></i></a>
+                <ul class="second-header">
+                  <li class="menu-item" id="hayao">
+                    <a class="menu-link" href="#">Hayao Miyazaki</a>
+                  </li>
+                  <li class="menu-item" id="isao">
+                    <a class="menu-link" href="#">Isao Takahata</a>
+                  </li>
+                  <li class="menu-item" id="yoshio">
+                    <a class="menu-link" href="#">Yoshiaki Nishimura</a>
+                  </li>
+                  <li class="menu-item" id="toru">
+                    <a class="menu-link" href="#">Toru Hara</a>
+                  </li>
+                  <li class="menu-item" id="toshio">
+                    <a class="menu-link" href="#">Toshio Suzuki</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
 
           <div class="search">
             <input type="search" placeholder="Buscar" />
@@ -72,25 +72,17 @@
       </nav>
     </header>
 
-    <!-- ZONA DE EL CUERPO DE LA PAGINA-primera pantalla fotos y resumen studio ghibli -->
+    <!-- ZONA DE EL CUERPO DE LA PAGINA-PRIMERA PANTALLA TEXTO E IMAGENES -->
     <main>
       <!-- imagenes de la primera pantalla -->
       <section class="container-slider" id="all-fist-images">
         <div class="slider" id="slider">
           <div class="slider__section">
-            <img
-              src="img/EL CASTILLO AMBULANTE.png"
-              alt="portada1"
-              width="1355"
-            />
+            <img src="img/EL CASTILLO AMBULANTE.png" alt="portada1" width="1355"/>
           </div>
 
           <div class="slider__section">
-            <img
-              src="img/EL VIAJE DE CHIJIRO.png"
-              alt="portada2"
-              width="1355"
-            />
+            <img src="img/EL VIAJE DE CHIJIRO.png" alt="portada2" width="1355" />
           </div>
 
           <div class="slider__section">
@@ -101,6 +93,7 @@
         <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
         <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
       </section>
+      <!-- TEXTO SINOPSIS DE ESTUDIO GHIBLI -->
       <section class="section-text" id="all-fist-text">
         <p>
           <b>Studios <span>Ghibli</span></b>
@@ -127,8 +120,9 @@
         </h1>
       </section>
     </main>
+    <!-- SEGUNDA TERCER Y CUARTA PANTALLA DE TODAS LAS PELICULAS LAS ANIMACIONES Y LOS PRODUCTORES-->
     <main>
-      <!-- segunda pantalla seccion todas las peliculas -->
+      <!-- seccion de id que llama la data de movies donde nos muestra la fecha el poster y el titulo -->
       <div class="all-movies-css" id="movies"></div>
       <div class="btn-order">
         <button id="btn-az" class="btn-order-az" hidden>ORDER A-Z</button>
@@ -138,54 +132,53 @@
         <div id="titles"></div>
         <div id="dates"></div>
       </section>
-
-      <section class="all-producers-css" id="all-producers">
-        <div id="section-producers"></div>
-        <div id="hayao" class="producers">
+      <!--pantalla de animaciones llamando el puntaje los titulos la descripcion y los poster-->
+      <section class="all-score-css poster" id="all-score" hidden>
+        <div id="score-titles"></div>
+      </section>
+      <!-- imagenes de los productores de studio ghibli -->
+      <section class="all-producers-css" id="all-producers" hidden>
+        <div id="img-hayao" class="producers">
           <img src="img/HAYAO-MIYAZAKI.jpg" alt="productor-hayao-miyazaki" width="220" height="400"/>
           <h1>Hayao Miyazaki</h1>
         </div>
-        <div id="isao" class="producers">
+
+        <div id="img-isao" class="producers">
           <img src="img/ISAO-TAKAHATA.jpg" alt="productor-Isao Takahata" width="220" height="400"/>
           <h1>Isao Takahata</h1>
         </div>
-        <div id="yoshio" class="producers">
+
+        <div id="img-yoshio" class="producers">
           <img src="img/YOSHIO-NISHIMURA.jpg" alt="productor-yoshio-nishimura"  width="220" height="400"/>
-          <h1>Yoshio Nishimura</h1>
+          <h1>Yoshiaki Nishimura</h1>
         </div>
-        <div id="toru" class="producers">
+
+        <div id="img-toru" class="producers">
           <img src="img/TORU-HARA.jpg" alt="productor-toru-hara" width="220" height="400"/>
           <h1>Toru Hara</h1>
         </div>
-        <div id="toshio" class="producers">
+
+        <div id="img-toshio" class="producers">
           <img src="img/TOSHIO-SUZUKI.jpg" alt="productor-toshio-suzuki" width="220" height="400">
           <h1>Toshio Suzuki</h1>
         </div>
       </section>
-
-      <!--pantalla de animaciones y estadisca-->
-
-      <section class="all-score-css" id="all-score">
-        <div  class="description title-css" id="score-titles"></div>
-      </section>
+      <!-- pantalla de productores donde llamamos los productores y los posters -->
+      <div id="section-producers">
+        <div class="poster-css"></div>
+      </div>
     </main>
 
     <!---ZONA DEL PIE DE PAGINA -->
     <footer class="footer">
       <section>
         <div class="icons-footer">
-          <a href="https://es-la.facebook.com/FansOfStudioGhibli/"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-          <a href="https://www.instagram.com/ghibli.movies/?hl=es"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="https://twitter.com/sghibliweblog?lang=es"
-            ><i class="fab fa-twitter"></i
-          ></a>
+          <a href="https://es-la.facebook.com/FansOfStudioGhibli/" ><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/ghibli.movies/?hl=es"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/sghibliweblog?lang=es"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="copyright">
-          <hr />
+          <hr/>
           <p>
             todos los derechos reservados © 2021
             <b>studio ghibli</b>
@@ -193,8 +186,8 @@
         </div>
       </section>
     </footer>
-    <!-- <div id="root"></div> -->
     <script src="main.js" type="module"></script>
   </body>
 </html>
+
 
